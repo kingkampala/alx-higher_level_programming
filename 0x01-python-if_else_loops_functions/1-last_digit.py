@@ -4,7 +4,7 @@ number = random.randint(-10000, 10000)
 king = abs(number) % 10
 if number < 0:
     king = -king
-print("Last digit of {:d} is {:d} and is ",.format(number, king), end="")
+print("Last digit of {:d} is {} and is ".format(number, king), end="")
 if king > 5:
     print("greater than 5")
 elif king == 0:
