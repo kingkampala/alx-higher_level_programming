@@ -2,6 +2,6 @@
 if __name__ == "__main__":
     import hidden_4
     name = dir(hidden_4)
-    for n in mame:
-        if n[:2] != "__":
-            print(n)
+    for n in name:
+        if n[:2] != '__':
+            print("{:s}".format(n))
