@@ -6,4 +6,4 @@ def divisible_by_2(my_list=[]):
             king[count] = True
         else:
             king[count] = False
-        return (king)
+    return (king)
